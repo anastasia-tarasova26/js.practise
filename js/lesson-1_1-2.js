@@ -58,3 +58,46 @@
 // }
 
 // console.log(result);
+
+
+//TODO: № 6 на while ===================================================
+// скористаємося циклом while та виведіть у консоль числа від 0 до 50
+
+// let numbers = 0;
+
+// while (numbers < 50) {
+//     numbers += 1;
+//     console.log("Number: ", numbers);
+// }
+
+
+//TODO:  ==========================
+// Напишіть if..else, що відповідає наступному switch:
+// const browser = "Opera"
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
+
+// const browser = "Edge";
+
+// if (browser === "Edge") {
+//     alert("You've got the Edge!");
+// }
+// else if (browser === "Chrome" || browser === "Firefox" || browser === "Safari" || browser === "Opera") {
+//     alert("Okay we support these browsers too");
+// }
+// else {
+//     alert("We hope that this page looks ok!");
+// }
