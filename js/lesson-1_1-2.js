@@ -122,3 +122,18 @@
 // }
 // console.log("🚀 ~ file: lesson-1_1-2.js:78 ~ total:", total);
 
+//TODO: ===================================
+//За допомогою циклу for додайте всі парні числа від min до max
+
+// const max = 20;
+// const min = 0;
+// let total = 0;
+
+// for (let i = min; i < max; i+= 1) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//         total += i; 
+//     }
+// }
+
+// console.log("🚀 ~ file: lesson-1_1-2.js:136 ~ total:", total);
