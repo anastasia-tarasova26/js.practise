@@ -39,3 +39,16 @@
 //     return sum / calt;
 // }
 // console.log(caclculateAverage(10,10,20,200, '10'))
+// TODO: № 3  ============================================================
+// Напишіть функцію min(a,b), яка повертає менше чисел a і b.
+// function min(a, b) {
+//     if (typeof (a) !== "number"||typeof (b) !== "number") {
+//         return 'У вас одне з значень рядок, наапишіть мені число'
+//     }
+//     if (a < b) {
+//         return a;
+//     }
+//     return b;
+// }
+
+// console.log(min(2,4))
