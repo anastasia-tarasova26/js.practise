@@ -53,17 +53,17 @@
 
 // console.log(min(2,4))
 
-//TODO: № 4 ==============================================================
+// TODO: № 4 ==============================================================
 // напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
-// const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
 
-// function summedNumbers(numbers) {
-//     let finalArray = [];
-//     for (let i = 0; i < numbers.length -1 ; i+= 1) {
-//         finalArray.push(numbers[i] + numbers[i + 1])
+function summedNumbers(numbers) {
+    let finalArray = [];
+    for (let i = 0; i < numbers.length -1 ; i+= 1) {
+        finalArray.push(numbers[i] + numbers[i + 1])
         
-//     }
-//     return finalArray;
-// }
+    }
+    return finalArray;
+}
 
-// console.log(summedNumbers(someArr));
+console.log(summedNumbers(someArr));
