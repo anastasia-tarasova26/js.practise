@@ -117,7 +117,7 @@
 
 // for (const value of Object.values(salaries)) {
 //     sum += value;
-       
+
 // }
 // console.log(sum)
 //TODO: № 8 ================================================================
@@ -131,12 +131,52 @@
 //   carColor: "black",
 // };
 // function objectKey(key, obj)
-// { 
+// {
 //     return Object.keys(obj).includes(key)
 // //   for (const i of Object.keys(obj)) {
 // //         if (i === key) { return true; }
-        
+
 // //    }
 // //     return false;
 // }
 // console.log(objectKey('kiwi', obj))
+
+//TODO: № 9 ==============================================================
+// Створіть функцію multiplyNumeric(obj),
+// яка множить всі числові властивості об'єкта obj на 2
+
+// let menu = {
+//   width: 200,
+//   height: 300,
+//   title: "My menu",
+// };
+
+// function multiplyNumeric(menu) {
+//   for (const key in menu) {
+//     if (menu.hasOwnProperty(key)) {
+//         if (typeof menu[key] === "number") {
+//             menu[key] *= 2;
+//         }
+//     }
+//   }
+//     return menu;
+// }
+
+
+// console.log(multiplyNumeric(menu));
+
+//TODO: № 10 ==============================================================
+// Напиши функцію яка приймає массив чисел і повертає новий массив,
+// унікальних чисел, які не півторюються
+
+// const numbers = [1, 1, 1, 2, 3, 4, 7, 7, 6, 6, 5, 4, 23, 22, 22, 111, 1, 5];
+
+// function uniqueArray(array) {
+//     const newArray = [];
+//     for (const number of array) {
+//         newArray[number] = number;
+//     }
+//     return Object.values(newArray);
+// }
+
+// console.log(uniqueArray(numbers));
