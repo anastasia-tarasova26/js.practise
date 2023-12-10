@@ -32,9 +32,7 @@
 //             continue
 //         }
 //         sum += arg; calt += 1;
-        
 
-        
 //     }
 //     return sum / calt;
 // }
@@ -55,15 +53,30 @@
 
 // TODO: № 4 ==============================================================
 // напиши функцію яка сумуватиме сусідні числа і пушити в новий масив
-const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
+//const someArr = [22, 11, 34, 5, 12, 13, 14, 15];
 
-function summedNumbers(numbers) {
-    let finalArray = [];
-    for (let i = 0; i < numbers.length -1 ; i+= 1) {
-        finalArray.push(numbers[i] + numbers[i + 1])
-        
-    }
-    return finalArray;
-}
+// function summedNumbers(numbers) {
+//     let finalArray = [];
+//     for (let i = 0; i < numbers.length -1 ; i+= 1) {
+//         finalArray.push(numbers[i] + numbers[i + 1])
 
-console.log(summedNumbers(someArr));
+//     }
+//     return finalArray;
+// }
+
+// console.log(summedNumbers(someArr));
+
+//TODO: № 5 ==============================================================
+//Напишіть функцію logItems(array), яка приймає
+//масив та використовує цикл for, який для кожного
+//елемента масиву виводитиме повідомлення у форматі
+//<номер елемента> - <значення елемента>
+//Нумерація елементів має починатися з першого.
+//['Джаз', 'Блюз', 'Рок-н-рол', 'Реггі', 'Реп']
+
+// function logItems(array) {
+//   for (let i = 0; i < array.length; i += 1) {
+//     console.log(`${i + 1}..${array[i]}`);
+//   }
+// }
+// logItems(["Джаз", "Блюз", "Рок-н-рол", "Реггі", "Реп"]);
