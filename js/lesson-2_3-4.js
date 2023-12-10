@@ -164,3 +164,19 @@
 
 
 // console.log(multiplyNumeric(menu));
+
+//TODO: № 10 ==============================================================
+// Напиши функцію яка приймає массив чисел і повертає новий массив,
+// унікальних чисел, які не півторюються
+
+// const numbers = [1, 1, 1, 2, 3, 4, 7, 7, 6, 6, 5, 4, 23, 22, 22, 111, 1, 5];
+
+// function uniqueArray(array) {
+//     const newArray = [];
+//     for (const number of array) {
+//         newArray[number] = number;
+//     }
+//     return Object.values(newArray);
+// }
+
+// console.log(uniqueArray(numbers));
