@@ -80,3 +80,24 @@
 //   }
 // }
 // logItems(["Джаз", "Блюз", "Рок-н-рол", "Реггі", "Реп"]);
+//TODO: № 6 ==============================================================
+// Напиши скрипт, який для об'єкта user,
+// Послідовно:
+// 1. додати поле mood зі значенням 'happy'
+// 2. замінити hobby на 'skydiving'
+// 3. замінити значення premium на false
+// 4. виводити зміст об'єкта user у форматі
+// ключ:значення використовуючи Object.keys() і for...of
+
+const user = {
+  name: "John",
+  age: 20,
+  hobby: "tenis",
+  premium: true,
+};
+user.mood = "happy";
+user.hobby = "skydiving";
+user.premium = false;
+for (const key of Object.keys(user)) {
+  console.log(`${user[key]}`);
+}
