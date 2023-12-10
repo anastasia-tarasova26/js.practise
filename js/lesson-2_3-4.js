@@ -89,15 +89,54 @@
 // 4. виводити зміст об'єкта user у форматі
 // ключ:значення використовуючи Object.keys() і for...of
 
-const user = {
-  name: "John",
-  age: 20,
-  hobby: "tenis",
-  premium: true,
-};
-user.mood = "happy";
-user.hobby = "skydiving";
-user.premium = false;
-for (const key of Object.keys(user)) {
-  console.log(`${user[key]}`);
-}
+// const user = {
+//   name: "John",
+//   age: 20,
+//   hobby: "tenis",
+//   premium: true,
+// };
+// user.mood = "happy";
+// user.hobby = "skydiving";
+// user.premium = false;
+// for (const key of Object.keys(user)) {
+//   console.log(`${user[key]}`);
+// }
+//TODO: № 7 ==============================================================
+// В нас є объект, в якому зберігаються зарплатні
+// нашої команди
+// Напишіть код для підсумовання всіх зарплат і
+// Збережіть його результат в перемінну sum.
+// Якщо объект salaries пустий, тоді результат має бути 0
+
+// const salaries = {
+//   Mango: 100,
+//   Poly: 160,
+//   Ajax: 1470,
+// };
+// let sum = 0;
+
+// for (const value of Object.values(salaries)) {
+//     sum += value;
+       
+// }
+// console.log(sum)
+//TODO: № 8 ================================================================
+// Потрібно написати функцію, яка приймає 2 параметри key та obj,
+// яка буде перебирати об'єкт
+// Якщо у об'єкта є такий ключ - поверне true
+
+// const obj = {
+//   name: "Igor",
+//   car: "Mercedes",
+//   carColor: "black",
+// };
+// function objectKey(key, obj)
+// { 
+//     return Object.keys(obj).includes(key)
+// //   for (const i of Object.keys(obj)) {
+// //         if (i === key) { return true; }
+        
+// //    }
+// //     return false;
+// }
+// console.log(objectKey('kiwi', obj))
