@@ -6,8 +6,6 @@
 //   console.log(input.value);
 // });
 
-
-
 //TODO: № 2 ==============================================
 // Після натискання кнопки "SWAP ME" здійснюється обмін вмістом між двома інпутами.
 // Ви можете натиснути на неї кілька разів або вручну змінити вміст інпутів.
@@ -21,3 +19,14 @@
 //  inputRight.value = subresult;
 
 // })
+//TODO: № 3 ==============================================
+// При кліку на кнопку текст параграфів змінюється на їх порядковий номер
+// const btn = document.querySelector("button");
+// const items = document.querySelectorAll("p"); // Зробили псевдо-масив
+// btn.addEventListener("click", onChange);
+// function onChange() {
+//   items.forEach((p, index) => {
+//     p.textContent = index + 1;
+//   });
+// }
+// console.log(items);
