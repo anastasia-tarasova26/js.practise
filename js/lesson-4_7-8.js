@@ -48,3 +48,44 @@
 //   btn.textContent = toggleTextBtn;
 //   console.log(toggleTextBtn);
 // }
+//TODO: № 5 ==============================================
+
+// Кнопка "Зменшити" робить квадрат менше на 10 пікселів, допопка "Збільшити" - більше на 10 пікселів.
+const btnDecrease = document.querySelector("#decrease");
+const btnIncrease = document.querySelector("#increase");
+const box = document.querySelector("#box");
+console.dir(box);
+// btnDecrease.addEventListener('click', () => {
+//     const width = box.offsetWidth;
+//     const height = box.offsetHeight;
+//     box.style.width = `${width - 10}px`;
+//     box.style.height = `${height - 10}px`;
+// })
+// btnIncrease.addEventListener('click', () => {
+//     const width = box.offsetWidth;
+//     const height = box.offsetHeight;
+//     box.style.width = `${width + 10}px`;
+//     box.style.height = `${height + 10}px`;
+// })
+
+btnDecrease.addEventListener('click', onChange);
+btnIncrease.addEventListener('click', onChange);
+
+function onChange(e) {
+    const width = box.offsetWidth;
+    const height = box.offsetHeight;
+    const currentBtn = e.target.getAttribute('id');
+    console.log(currentBtn);
+    switch (currentBtn) {
+        case "increase":
+             box.style.width = `${width + 10}px`;
+     box.style.height = `${height + 10}px`;
+            break;
+       case "decrease":
+             box.style.width = `${width - 10}px`;
+     box.style.height = `${height - 10}px`;
+            break;  
+    
+    }
+}
+    
