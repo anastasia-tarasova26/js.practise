@@ -51,10 +51,10 @@
 //TODO: № 5 ==============================================
 
 // Кнопка "Зменшити" робить квадрат менше на 10 пікселів, допопка "Збільшити" - більше на 10 пікселів.
-const btnDecrease = document.querySelector("#decrease");
-const btnIncrease = document.querySelector("#increase");
-const box = document.querySelector("#box");
-console.dir(box);
+// const btnDecrease = document.querySelector("#decrease");
+// const btnIncrease = document.querySelector("#increase");
+// const box = document.querySelector("#box");
+// console.dir(box);
 // btnDecrease.addEventListener('click', () => {
 //     const width = box.offsetWidth;
 //     const height = box.offsetHeight;
@@ -68,24 +68,41 @@ console.dir(box);
 //     box.style.height = `${height + 10}px`;
 // })
 
-btnDecrease.addEventListener('click', onChange);
-btnIncrease.addEventListener('click', onChange);
+// btnDecrease.addEventListener('click', onChange);
+// btnIncrease.addEventListener('click', onChange);
 
-function onChange(e) {
-    const width = box.offsetWidth;
-    const height = box.offsetHeight;
-    const currentBtn = e.target.getAttribute('id');
-    console.log(currentBtn);
-    switch (currentBtn) {
-        case "increase":
-             box.style.width = `${width + 10}px`;
-     box.style.height = `${height + 10}px`;
-            break;
-       case "decrease":
-             box.style.width = `${width - 10}px`;
-     box.style.height = `${height - 10}px`;
-            break;  
+// function onChange(e) {
+//     const width = box.offsetWidth;
+//     const height = box.offsetHeight;
+//     const currentBtn = e.target.getAttribute('id');
+//     console.log(currentBtn);
+//     switch (currentBtn) {
+//         case "increase":
+//              box.style.width = `${width + 10}px`;
+//      box.style.height = `${height + 10}px`;
+//             break;
+//        case "decrease":
+//              box.style.width = `${width - 10}px`;
+//      box.style.height = `${height - 10}px`;
+//             break;  
     
-    }
-}
-    
+//     }
+// }
+
+//TODO: № 6 ==============================================
+// Додайде слухач кліку і визначте, коли клік відбувається
+// всередині елемента з id "place" і коли клік припадає поза зоною елемента
+// https://developer.mozilla.org/en-US/docs/Web/API/Node/contains
+
+// const box = document.querySelector("#place");
+
+// window.addEventListener("click", e => {
+//     // console.dir(e.target);
+//     const currentElement = box.contains(e.target);
+//     // console.log(currentElement);
+//     if (currentElement) {
+//         console.log("You have clicked on the box");
+//         return;
+//     }
+//     console.log("You missed the box");
+// })
